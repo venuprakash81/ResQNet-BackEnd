@@ -12,7 +12,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/ambulance-bookings")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://res-q-net-front-end-venu-prakash.vercel.app")
 public class AmbulanceBookingController {
 
     private final AmbulanceBookingService service;
