@@ -13,7 +13,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/citizens")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://res-q-net-front-end-venu-prakash.vercel.app")
 public class CitizenController {
 
     private final CitizenRepository citizenRepository;
