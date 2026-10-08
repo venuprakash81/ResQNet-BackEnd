@@ -24,7 +24,7 @@ public class WebSocketConfig
 
         registry.addEndpoint("/ws-chat")
                 .setAllowedOrigins(
-                        "http://localhost:3000"
+                        "https://res-q-net-front-end-venu-prakash.vercel.app"
                 )
                 .withSockJS();
     }
