@@ -13,7 +13,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/volunteers")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://res-q-net-front-end-venu-prakash.vercel.app")
 public class VolunteerController {
 
     private final VolunteerService volunteerService;
