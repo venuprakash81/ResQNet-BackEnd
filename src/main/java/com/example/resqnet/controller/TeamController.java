@@ -14,7 +14,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/teams")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://res-q-net-front-end-venu-prakash.vercel.app")
 public class TeamController {
 
     private final TeamRepository teamRepository;
