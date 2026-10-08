@@ -13,7 +13,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/emergency-locations")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://res-q-net-front-end-venu-prakash.vercel.app")
 public class EmergencyLocationController {
 
     private final EmergencyLocationRepository repository;
