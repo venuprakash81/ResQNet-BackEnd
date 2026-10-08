@@ -11,8 +11,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/beds")
 @CrossOrigin(origins = {
-        "http://localhost:3000",
-        "http://localhost:5173"
+        "https://res-q-net-front-end-venu-prakash.vercel.app"
 })
 public class BedController {
 
